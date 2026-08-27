@@ -1,0 +1,12 @@
+# Compiled C++ executable files
+*.exe
+
+# VS Code settings
+.vscode/
+
+# Local input/output files
+input.txt
+output.txt
+
+# Batch files used for local execution
+run.bat
