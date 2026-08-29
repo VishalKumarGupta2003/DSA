@@ -29,7 +29,7 @@ int main(){
     root->left = new TreeNode(2);
     root->right = new TreeNode(2);
     root->left->right = new TreeNode(4);
-    root->right->left = new TreeNode(4);
+    root->right->left = new TreeNode(6);
     cout<<boolalpha<<((isSymmetric(root)));
     return 0;
 }
