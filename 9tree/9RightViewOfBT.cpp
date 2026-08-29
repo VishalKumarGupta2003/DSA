@@ -20,11 +20,9 @@ public:
         if(ans.size() == level)
             ans.push_back(root->val);
 
-        if(root->right)
-            rightSideRecursion(root->right,level+1,ans);
+        rightSideRecursion(root->right,level+1,ans);
 
-        if(root->left)
-            rightSideRecursion(root->left,level+1,ans);
+        rightSideRecursion(root->left,level+1,ans);
 
         return;
     }
