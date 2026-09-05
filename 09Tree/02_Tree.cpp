@@ -40,18 +40,18 @@ int maxDepth(TreeNode* root){
 //     // If any subtree is unbalanced, return -1 immediately. Otherwise return its height.
 //     // Height of current node = 1 + max(left height, right height).
 //     // Finally, if checkbalanced(root) returns -1, tree is unbalanced; otherwise balanced.
-//     bool isBalanced(TreeNode* root) {
-//         return checkbalanced(root) != -1; // -1 means an unbalanced subtree was found
-//     }
-//     int checkbalanced(TreeNode* root){
-//         if(root == nullptr) return 0; // Height of an empty tree is 0
-//         int lh=checkbalanced(root->left); // Get left subtree height
-//         if(lh == -1) return -1; // Left subtree is unbalanced
-//         int rh = checkbalanced(root->right); // Get right subtree height
-//         if(rh == -1) return -1; // Right subtree is unbalanced
-//         if(abs(rh-lh) > 1) return -1; // Current node is unbalanced
-//         return 1+max(lh,rh); // Return height of current subtree
-//     }
+    // bool isBalanced(TreeNode* root) {
+    //     return checkbalanced(root) != -1; // -1 means an unbalanced subtree was found
+    // }
+    // int checkbalanced(TreeNode* root){
+    //     if(root == nullptr) return 0; // Height of an empty tree is 0
+    //     int lh=checkbalanced(root->left); // Get left subtree height
+    //     if(lh == -1) return -1; // Left subtree is unbalanced
+    //     int rh = checkbalanced(root->right); // Get right subtree height
+    //     if(rh == -1) return -1; // Right subtree is unbalanced
+    //     if(abs(rh-lh) > 1) return -1; // Current node is unbalanced
+    //     return 1+max(lh,rh); // Return height of current subtree
+    // }
 // };
 
 // 3) DIAMETER OF BT => LONGEST B/W TWO NODES
